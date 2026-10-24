@@ -1,0 +1,11 @@
+# Main study (Monte Carlo simulator, closed form, tables, figures).
+#   conda env create -f environment.yml && conda activate qrouting
+# The discrete-event validation uses its own environment: des_validation/environment.yml
+name: qrouting
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.11
+  - numpy>=1.26
+  - scipy>=1.11
+  - matplotlib>=3.8

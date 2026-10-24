@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# LaTeX build products
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.toc
+paper/main.pdf
+figs/fig_architecture.pdf.tmp
+
+# PNG copies written next to the PDF figures (the paper uses the PDFs)
+figs/*.png
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

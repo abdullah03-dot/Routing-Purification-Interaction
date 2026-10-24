@@ -1,0 +1,5 @@
+# Main study. Tested with Python 3.11 and 3.12 (numpy 2.5.4, scipy 1.18.1, matplotlib 3.11.2);
+# outputs are bit-identical across these versions.
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
